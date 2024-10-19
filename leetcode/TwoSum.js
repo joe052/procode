@@ -778,7 +778,7 @@ const twoSum = function (nums, target) {
      *  AND TRY TO FIND IF IT MAYTCHES THE TARGET */
     for (let j = 0; j < nums.length; j++) {
       if (i == j) continue;
-    //   console.log(j);
+      //   console.log(j);
       const result = cursor + nums[j];
       if (result == target) {
         output.push(i, j);
